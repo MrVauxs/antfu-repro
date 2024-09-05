@@ -1,6 +1,6 @@
-const x = {foo: 1, bar: 2 }
-const result = Object.keys(x)
-  .filter(Boolean)
-  .reduce((acc, key) => ({ ...acc, ...x[key] }), {});
+/* eslint-disable unused-imports/no-unused-vars */
+/* eslint-disable no-unused-vars */
 
-console.log(result)
+const x = { foo: 1, bar: 2 }
+const result = Object.keys(x)
+  .reduce((acc, key) => ({ ...acc, ...x[key] }), {})
